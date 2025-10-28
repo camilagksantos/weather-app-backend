@@ -1,4 +1,4 @@
-package com.study.weather_app_backend.model.weather;
+package com.study.weatherappbackend.model.weather;
 
 public class Wind {
     private Double speed;

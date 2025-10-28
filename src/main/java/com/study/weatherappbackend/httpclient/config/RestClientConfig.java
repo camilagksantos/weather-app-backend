@@ -1,4 +1,4 @@
-package com.study.weather_app_backend.httpClient.config;
+package com.study.weatherappbackend.httpclient.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

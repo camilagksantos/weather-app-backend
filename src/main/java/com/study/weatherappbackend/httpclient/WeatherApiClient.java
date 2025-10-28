@@ -1,6 +1,6 @@
-package com.study.weather_app_backend.httpClient;
+package com.study.weatherappbackend.httpclient;
 
-import com.study.weather_app_backend.model.WeatherData;
+import com.study.weatherappbackend.model.WeatherData;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.service.annotation.GetExchange;
 

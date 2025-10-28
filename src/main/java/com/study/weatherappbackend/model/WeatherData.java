@@ -1,6 +1,6 @@
-package com.study.weather_app_backend.model;
+package com.study.weatherappbackend.model;
 
-import com.study.weather_app_backend.model.weather.*;
+import com.study.weatherappbackend.model.weather.*;
 
 import java.util.List;
 

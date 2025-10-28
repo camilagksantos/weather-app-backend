@@ -1,4 +1,4 @@
-package com.study.weather_app_backend.dto;
+package com.study.weatherappbackend.dto;
 
 public class WeatherDataRequestDto {
     private String city;

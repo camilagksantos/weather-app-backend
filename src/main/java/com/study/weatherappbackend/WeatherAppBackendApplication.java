@@ -1,4 +1,4 @@
-package com.study.weather_app_backend;
+package com.study.weatherappbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

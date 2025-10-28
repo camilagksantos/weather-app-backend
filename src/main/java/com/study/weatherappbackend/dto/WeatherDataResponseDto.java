@@ -1,6 +1,6 @@
-package com.study.weather_app_backend.dto;
+package com.study.weatherappbackend.dto;
 
-import com.study.weather_app_backend.model.WeatherData;
+import com.study.weatherappbackend.model.WeatherData;
 
 public class WeatherDataResponseDto {
     private WeatherData data;

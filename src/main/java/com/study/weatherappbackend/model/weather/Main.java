@@ -1,9 +1,8 @@
-package com.study.weather_app_backend.model.weather;
+package com.study.weatherappbackend.model.weather;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Main {
-    private Double temp;
 
     @JsonProperty("feels_like")
     private Double feelsLike;
@@ -13,7 +12,4 @@ public class Main {
 
     @JsonProperty("temp_max")
     private Double tempMax;
-
-    private Integer pressure;
-    private Integer humidity;
 }

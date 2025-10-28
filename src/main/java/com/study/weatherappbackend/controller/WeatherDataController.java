@@ -1,7 +1,7 @@
-package com.study.weather_app_backend.controller;
+package com.study.weatherappbackend.controller;
 
-import com.study.weather_app_backend.dto.WeatherDataResponseDto;
-import com.study.weather_app_backend.service.WeatherDataService;
+import com.study.weatherappbackend.dto.WeatherDataResponseDto;
+import com.study.weatherappbackend.service.WeatherDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,8 +10,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/weather")
 @CrossOrigin(origins = "http://localhost:3000")
 public class WeatherDataController {
-    @Autowired
+
     private WeatherDataService weatherDataService;
+
+    public WeatherDataController(WeatherDataService weatherDataService) {
+        this.weatherDataService = weatherDataService;
+    }
 
     @GetMapping
     public ResponseEntity<WeatherDataResponseDto> getWeather(@RequestParam String city) {
