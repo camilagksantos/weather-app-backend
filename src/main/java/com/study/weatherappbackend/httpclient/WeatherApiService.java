@@ -2,7 +2,9 @@ package com.study.weatherappbackend.httpclient;
 
 import com.study.weatherappbackend.model.WeatherData;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component
 public class WeatherApiService {
 
     private final WeatherApiClient weatherApiClient;

@@ -2,7 +2,6 @@ package com.study.weatherappbackend.controller;
 
 import com.study.weatherappbackend.dto.WeatherDataResponseDto;
 import com.study.weatherappbackend.service.WeatherDataService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
